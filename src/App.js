@@ -58,7 +58,7 @@ function App() {
     if (questions.length === 0) return;
     if (!apiKey) {
       setFeedback(
-        "Please enter your YouTube API key above. If you are not an engineer, you can request from me <a href='https://www.instagram.com/gospel_mur'>here</a>"
+        "Please enter your YouTube API key above. If you are not an engineer, you can request from me https://www.instagram.com/gospel_mur"
       );
       return;
     }
