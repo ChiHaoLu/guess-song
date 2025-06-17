@@ -1,5 +1,6 @@
 {
-    "name": "guess-songs",
+    "name": "guess-song",
+    "homepage": "https://chihaolu.github.io/guess-song",
     "version": "1.0.0",
     "private": true,
     "dependencies": {

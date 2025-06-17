@@ -107,7 +107,7 @@ function App() {
             />
           </div>
         )}
-        <h1>SimpleDog's Song Game</h1>
+        <h1>SimpleDog's Guess Song Game</h1>
         <div style={{ marginBottom: 20 }}>
           <label htmlFor="problem-set-select" style={{ marginRight: 8 }}>
             Choose a song set:
