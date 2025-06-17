@@ -18,6 +18,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [feedback, setFeedback] = useState("");
+  const [usedIndices, setUsedIndices] = useState([]);
   const [apiKey, setApiKey] = useState(() => {
     return (
       process.env.REACT_APP_YOUTUBE_API_KEY ||
@@ -41,6 +42,7 @@ function App() {
     setQuestions([]);
     setVideoId(null);
     setError("");
+    setUsedIndices([]); // Reset used indices when changing problem set
 
     const problemSet = PROBLEM_SETS.find((set) => set.file === selectedSet);
     if (problemSet) {
@@ -62,8 +64,22 @@ function App() {
       );
       return;
     }
+
+    // If all questions have been used, reset the used indices
+    if (usedIndices.length >= questions.length) {
+      setUsedIndices([]);
+    }
+
+    // Find an unused index
+    let idx;
+    do {
+      idx = Math.floor(Math.random() * questions.length);
+    } while (usedIndices.includes(idx));
+
+    // Add the index to used indices
+    setUsedIndices([...usedIndices, idx]);
+
     setShowMask(true); // Show mask when picking a new question
-    const idx = Math.floor(Math.random() * questions.length);
     const q = questions[idx];
     // Search YouTube
     const searchQuery = `${q.song} ${q.singer}`;
@@ -126,13 +142,20 @@ function App() {
               </option>
             ))}
           </select>
+          {selectedSet && !loading && questions.length > 0 && (
+            <span style={{ marginLeft: 10 }}>
+              (Total songs: {questions.length})
+            </span>
+          )}
         </div>
         {!selectedSet && <div>Please select a problem set to start.</div>}
         {selectedSet && loading && <div>Loading questions...</div>}
         {error && <div style={{ color: "red" }}>Error: {error}</div>}
         {selectedSet && !loading && questions.length > 0 && (
           <>
-            <button onClick={pickRandomQuestion}>Next Song</button>
+            <button onClick={pickRandomQuestion}>
+              Next Song ({usedIndices.length}/{questions.length})
+            </button>
             {videoId ? (
               <div
                 className="video-frame"
