@@ -229,13 +229,15 @@ function App() {
           </>
         )}
         <iframe
-          title="媒體播放器"
-          src="https://embed.podcasts.apple.com/us/podcast/simple-dog/id1812055953?l=zh-Hant-TW&amp;itscg=30200&amp;itsct=podcast_box_player&amp;ls=1&amp;mttnsubad=1812055953&amp;theme=auto"
-          id="embedPlayer"
-          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-          allow="autoplay *; encrypted-media *; clipboard-write"
-          className="podcast-frame"
-        />
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/S2Lj_X2NGlM?si=wdBhCX8iN1Mq6r-4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </div>
       <Footer />
     </div>
