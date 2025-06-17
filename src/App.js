@@ -57,7 +57,9 @@ function App() {
     setVideoId(null);
     if (questions.length === 0) return;
     if (!apiKey) {
-      setFeedback("Please enter your YouTube API key above.");
+      setFeedback(
+        "Please enter your YouTube API key above. If you are not a engineer, you can request from me https://www.instagram.com/gospel_mur"
+      );
       return;
     }
     setShowMask(true); // Show mask when picking a new question
@@ -95,7 +97,8 @@ function App() {
         {!apiKey && (
           <div style={{ marginBottom: 20 }}>
             <label htmlFor="api-key-input" style={{ marginRight: 8 }}>
-              Enter your YouTube API Key:
+              Enter your YouTube API Key: (If you are not a engineer, you can
+              request from me https://www.instagram.com/gospel_mur)
             </label>
             <input
               id="api-key-input"
