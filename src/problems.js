@@ -1,5 +1,5 @@
 // This file is auto-generated. Do not edit manually.
-// Generated on: 2025-06-17T14:53:30.175Z
+// Generated on: 2025-06-17T15:07:49.412Z
 
 export const PROBLEM_SETS = [
   {
@@ -1459,6 +1459,400 @@ export const PROBLEM_SETS = [
       {
         "song": "Radioactive",
         "singer": "Imagine Dragons"
+      }
+    ]
+  },
+  {
+    "label": "Popular Japanese",
+    "file": "popular-japanese.json",
+    "problems": [
+      {
+        "song": "Lemon",
+        "singer": "米津玄師"
+      },
+      {
+        "song": "Pretender",
+        "singer": "Official髭男dism"
+      },
+      {
+        "song": "Paprika",
+        "singer": "米津玄師"
+      },
+      {
+        "song": "打上花火",
+        "singer": "DAOKO × 米津玄師"
+      },
+      {
+        "song": "アイネクライネ",
+        "singer": "米津玄師"
+      },
+      {
+        "song": "シュガーソングとビターステップ",
+        "singer": "UNISON SQUARE GARDEN"
+      },
+      {
+        "song": "さよならエレジー",
+        "singer": "菅田将暉"
+      },
+      {
+        "song": "なんでもないや",
+        "singer": "RADWIMPS"
+      },
+      {
+        "song": "前前前世",
+        "singer": "RADWIMPS"
+      },
+      {
+        "song": "スパークル",
+        "singer": "RADWIMPS"
+      },
+      {
+        "song": "Wherever you are",
+        "singer": "ONE OK ROCK"
+      },
+      {
+        "song": "完全感覚Dreamer",
+        "singer": "ONE OK ROCK"
+      },
+      {
+        "song": "The Beginning",
+        "singer": "ONE OK ROCK"
+      },
+      {
+        "song": "R.Y.U.S.E.I.",
+        "singer": "三代目 J Soul Brothers"
+      },
+      {
+        "song": "恋",
+        "singer": "星野源"
+      },
+      {
+        "song": "Family Song",
+        "singer": "星野源"
+      },
+      {
+        "song": "アイデア",
+        "singer": "星野源"
+      },
+      {
+        "song": "新宝島",
+        "singer": "サカナクション"
+      },
+      {
+        "song": "Blue Bird",
+        "singer": "いきものがかり"
+      },
+      {
+        "song": "ありがとう",
+        "singer": "いきものがかり"
+      },
+      {
+        "song": "YELL",
+        "singer": "いきものがかり"
+      },
+      {
+        "song": "じょいふる",
+        "singer": "いきものがかり"
+      },
+      {
+        "song": "HANABI",
+        "singer": "Mr.Children"
+      },
+      {
+        "song": "Sign",
+        "singer": "Mr.Children"
+      },
+      {
+        "song": "GIFT",
+        "singer": "Mr.Children"
+      },
+      {
+        "song": "365日の紙飛行機",
+        "singer": "AKB48"
+      },
+      {
+        "song": "ヘビーローテーション",
+        "singer": "AKB48"
+      },
+      {
+        "song": "恋するフォーチュンクッキー",
+        "singer": "AKB48"
+      },
+      {
+        "song": "フライングゲット",
+        "singer": "AKB48"
+      },
+      {
+        "song": "サイレントマジョリティー",
+        "singer": "欅坂46"
+      },
+      {
+        "song": "インフルエンサー",
+        "singer": "乃木坂46"
+      },
+      {
+        "song": "シンクロニシティ",
+        "singer": "乃木坂46"
+      },
+      {
+        "song": "裸の心",
+        "singer": "あいみょん"
+      },
+      {
+        "song": "マリーゴールド",
+        "singer": "あいみょん"
+      },
+      {
+        "song": "君はロックを聴かない",
+        "singer": "あいみょん"
+      },
+      {
+        "song": "ハルノヒ",
+        "singer": "あいみょん"
+      },
+      {
+        "song": "ひまわりの約束",
+        "singer": "秦基博"
+      },
+      {
+        "song": "奏（かなで）",
+        "singer": "スキマスイッチ"
+      },
+      {
+        "song": "小さな恋のうた",
+        "singer": "MONGOL800"
+      },
+      {
+        "song": "366日",
+        "singer": "HY"
+      },
+      {
+        "song": "未来予想図II",
+        "singer": "DREAMS COME TRUE"
+      },
+      {
+        "song": "栄光の架橋",
+        "singer": "ゆず"
+      },
+      {
+        "song": "花束",
+        "singer": "back number"
+      },
+      {
+        "song": "高嶺の花子さん",
+        "singer": "back number"
+      },
+      {
+        "song": "クリスマスソング",
+        "singer": "back number"
+      },
+      {
+        "song": "ヒロイン",
+        "singer": "back number"
+      },
+      {
+        "song": "恋音と雨空",
+        "singer": "AAA"
+      },
+      {
+        "song": "さくらんぼ",
+        "singer": "大塚愛"
+      },
+      {
+        "song": "プラネタリウム",
+        "singer": "大塚愛"
+      },
+      {
+        "song": "CHE.R.RY",
+        "singer": "YUI"
+      },
+      {
+        "song": "Good-bye days",
+        "singer": "YUI"
+      },
+      {
+        "song": "again",
+        "singer": "YUI"
+      },
+      {
+        "song": "Sign",
+        "singer": "FLOW"
+      },
+      {
+        "song": "GO!!!",
+        "singer": "FLOW"
+      },
+      {
+        "song": "紅蓮華",
+        "singer": "LiSA"
+      },
+      {
+        "song": "炎",
+        "singer": "LiSA"
+      },
+      {
+        "song": "crossing field",
+        "singer": "LiSA"
+      },
+      {
+        "song": "Catch the Moment",
+        "singer": "LiSA"
+      },
+      {
+        "song": "unravel",
+        "singer": "TK from 凛として時雨"
+      },
+      {
+        "song": "シルエット",
+        "singer": "KANA-BOON"
+      },
+      {
+        "song": "バクチ・ダンサー",
+        "singer": "DOES"
+      },
+      {
+        "song": "リライト",
+        "singer": "ASIAN KUNG-FU GENERATION"
+      },
+      {
+        "song": "ソラニン",
+        "singer": "ASIAN KUNG-FU GENERATION"
+      },
+      {
+        "song": "After Dark",
+        "singer": "ASIAN KUNG-FU GENERATION"
+      },
+      {
+        "song": "遥か",
+        "singer": "GReeeeN"
+      },
+      {
+        "song": "キセキ",
+        "singer": "GReeeeN"
+      },
+      {
+        "song": "愛唄",
+        "singer": "GReeeeN"
+      },
+      {
+        "song": "道",
+        "singer": "EXILE"
+      },
+      {
+        "song": "Ti Amo",
+        "singer": "EXILE"
+      },
+      {
+        "song": "Choo Choo TRAIN",
+        "singer": "EXILE"
+      },
+      {
+        "song": "Rising Sun",
+        "singer": "EXILE"
+      },
+      {
+        "song": "花火",
+        "singer": "aiko"
+      },
+      {
+        "song": "カブトムシ",
+        "singer": "aiko"
+      },
+      {
+        "song": "ボーイフレンド",
+        "singer": "aiko"
+      },
+      {
+        "song": "カブトムシ",
+        "singer": "aiko"
+      },
+      {
+        "song": "恋愛サーキュレーション",
+        "singer": "花澤香菜"
+      },
+      {
+        "song": "God knows...",
+        "singer": "涼宮ハルヒ（平野綾）"
+      },
+      {
+        "song": "only my railgun",
+        "singer": "fripSide"
+      },
+      {
+        "song": "君の知らない物語",
+        "singer": "supercell"
+      },
+      {
+        "song": "secret base ～君がくれたもの～",
+        "singer": "ZONE"
+      },
+      {
+        "song": "タマシイレボリューション",
+        "singer": "Superfly"
+      },
+      {
+        "song": "愛をこめて花束を",
+        "singer": "Superfly"
+      },
+      {
+        "song": "Butter-Fly",
+        "singer": "和田光司"
+      },
+      {
+        "song": "残酷な天使のテーゼ",
+        "singer": "高橋洋子"
+      },
+      {
+        "song": "創聖のアクエリオン",
+        "singer": "AKINO"
+      },
+      {
+        "song": "ライオン",
+        "singer": "May'n/中島愛"
+      },
+      {
+        "song": "君が代",
+        "singer": "国歌"
+      },
+      {
+        "song": "世界に一つだけの花",
+        "singer": "SMAP"
+      },
+      {
+        "song": "ありがとう",
+        "singer": "SMAP"
+      },
+      {
+        "song": "花は咲く",
+        "singer": "花は咲くプロジェクト"
+      },
+      {
+        "song": "栄光の架橋",
+        "singer": "ゆず"
+      },
+      {
+        "song": "ひまわりの約束",
+        "singer": "秦基博"
+      },
+      {
+        "song": "未来予想図II",
+        "singer": "DREAMS COME TRUE"
+      },
+      {
+        "song": "小さな恋のうた",
+        "singer": "MONGOL800"
+      },
+      {
+        "song": "366日",
+        "singer": "HY"
+      },
+      {
+        "song": "HANABI",
+        "singer": "Mr.Children"
+      },
+      {
+        "song": "Sign",
+        "singer": "Mr.Children"
       }
     ]
   },
