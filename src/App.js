@@ -58,7 +58,7 @@ function App() {
     if (questions.length === 0) return;
     if (!apiKey) {
       setFeedback(
-        "Please enter your YouTube API key above. If you are not a engineer, you can request from me https://www.instagram.com/gospel_mur"
+        "Please enter your YouTube API key above. If you are not an engineer, you can request from me <a href='https://www.instagram.com/gospel_mur'>here</a>"
       );
       return;
     }
@@ -97,8 +97,7 @@ function App() {
         {!apiKey && (
           <div style={{ marginBottom: 20 }}>
             <label htmlFor="api-key-input" style={{ marginRight: 8 }}>
-              Enter your YouTube API Key: (If you are not a engineer, you can
-              request from me https://www.instagram.com/gospel_mur)
+              Enter your YouTube API Key:
             </label>
             <input
               id="api-key-input"

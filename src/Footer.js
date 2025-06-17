@@ -69,7 +69,7 @@ function Footer() {
           </div>
           <p>
             Hi, I'm ALu (<a href="https://chihaolu.me">chihaolu.me</a>), a
-            blockchain developer and the host of the podcast <b>SimpleDog</b>.
+            blockchain developer.
             <br />
             <br />I created this website for my friends to enjoy at parties.
             Feel free to check out my podcast and other games using the links
@@ -78,8 +78,8 @@ function Footer() {
         </div>
       </div>
       <div className="footer-copyright">
-        &copy; {new Date().getFullYear()} SimpleDog's Song Game. All rights
-        reserved.
+        &copy; {new Date().getFullYear()} SimpleDog's Guess Song Game. All
+        rights reserved.
       </div>
     </footer>
   );
