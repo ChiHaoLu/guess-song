@@ -1,0 +1,397 @@
+{
+    "update": "2025/1/2",
+    "problems": [
+        {
+            "song": "Gangnam Style",
+            "singer": "PSY"
+        },
+        {
+            "song": "Nobody",
+            "singer": "Wonder Girls"
+        },
+        {
+            "song": "Gee",
+            "singer": "Girls' Generation"
+        },
+        {
+            "song": "Sorry, Sorry",
+            "singer": "Super Junior"
+        },
+        {
+            "song": "Haru Haru",
+            "singer": "BIGBANG"
+        },
+        {
+            "song": "Lies",
+            "singer": "BIGBANG"
+        },
+        {
+            "song": "Love Scenario",
+            "singer": "iKON"
+        },
+        {
+            "song": "DDU-DU DDU-DU",
+            "singer": "BLACKPINK"
+        },
+        {
+            "song": "Dynamite",
+            "singer": "BTS"
+        },
+        {
+            "song": "Spring Day",
+            "singer": "BTS"
+        },
+        {
+            "song": "DNA",
+            "singer": "BTS"
+        },
+        {
+            "song": "Boy With Luv",
+            "singer": "BTS ft. Halsey"
+        },
+        {
+            "song": "Fantastic Baby",
+            "singer": "BIGBANG"
+        },
+        {
+            "song": "Fire",
+            "singer": "BTS"
+        },
+        {
+            "song": "Cheer Up",
+            "singer": "TWICE"
+        },
+        {
+            "song": "TT",
+            "singer": "TWICE"
+        },
+        {
+            "song": "Like OOH-AHH",
+            "singer": "TWICE"
+        },
+        {
+            "song": "Lollipop",
+            "singer": "BIGBANG & 2NE1"
+        },
+        {
+            "song": "I Am the Best",
+            "singer": "2NE1"
+        },
+        {
+            "song": "Bang Bang Bang",
+            "singer": "BIGBANG"
+        },
+        {
+            "song": "Red Flavor",
+            "singer": "Red Velvet"
+        },
+        {
+            "song": "Bad Boy",
+            "singer": "Red Velvet"
+        },
+        {
+            "song": "Russian Roulette",
+            "singer": "Red Velvet"
+        },
+        {
+            "song": "Growl",
+            "singer": "EXO"
+        },
+        {
+            "song": "Call Me Baby",
+            "singer": "EXO"
+        },
+        {
+            "song": "Love Shot",
+            "singer": "EXO"
+        },
+        {
+            "song": "Monster",
+            "singer": "EXO"
+        },
+        {
+            "song": "View",
+            "singer": "SHINee"
+        },
+        {
+            "song": "Ring Ding Dong",
+            "singer": "SHINee"
+        },
+        {
+            "song": "Sherlock",
+            "singer": "SHINee"
+        },
+        {
+            "song": "Lucifer",
+            "singer": "SHINee"
+        },
+        {
+            "song": "Replay",
+            "singer": "SHINee"
+        },
+        {
+            "song": "Me Gustas Tu",
+            "singer": "GFRIEND"
+        },
+        {
+            "song": "Rough",
+            "singer": "GFRIEND"
+        },
+        {
+            "song": "Navillera",
+            "singer": "GFRIEND"
+        },
+        {
+            "song": "Nonstop",
+            "singer": "OH MY GIRL"
+        },
+        {
+            "song": "Dolphin",
+            "singer": "OH MY GIRL"
+        },
+        {
+            "song": "HIP",
+            "singer": "MAMAMOO"
+        },
+        {
+            "song": "Starry Night",
+            "singer": "MAMAMOO"
+        },
+        {
+            "song": "Decalcomanie",
+            "singer": "MAMAMOO"
+        },
+        {
+            "song": "Solo",
+            "singer": "Jennie"
+        },
+        {
+            "song": "200%",
+            "singer": "AKMU"
+        },
+        {
+            "song": "Give Love",
+            "singer": "AKMU"
+        },
+        {
+            "song": "How Can I Love the Heartbreak, You're the One I Love",
+            "singer": "AKMU"
+        },
+        {
+            "song": "Palette",
+            "singer": "IU ft. G-DRAGON"
+        },
+        {
+            "song": "Good Day",
+            "singer": "IU"
+        },
+        {
+            "song": "Blueming",
+            "singer": "IU"
+        },
+        {
+            "song": "Through the Night",
+            "singer": "IU"
+        },
+        {
+            "song": "Celebrity",
+            "singer": "IU"
+        },
+        {
+            "song": "Eight",
+            "singer": "IU ft. SUGA"
+        },
+        {
+            "song": "Love Dive",
+            "singer": "IVE"
+        },
+        {
+            "song": "Eleven",
+            "singer": "IVE"
+        },
+        {
+            "song": "After LIKE",
+            "singer": "IVE"
+        },
+        {
+            "song": "Hype Boy",
+            "singer": "NewJeans"
+        },
+        {
+            "song": "Ditto",
+            "singer": "NewJeans"
+        },
+        {
+            "song": "OMG",
+            "singer": "NewJeans"
+        },
+        {
+            "song": "Super Shy",
+            "singer": "NewJeans"
+        },
+        {
+            "song": "Next Level",
+            "singer": "aespa"
+        },
+        {
+            "song": "Savage",
+            "singer": "aespa"
+        },
+        {
+            "song": "Drama",
+            "singer": "aespa"
+        },
+        {
+            "song": "Tomboy",
+            "singer": "(G)I-DLE"
+        },
+        {
+            "song": "Queencard",
+            "singer": "(G)I-DLE"
+        },
+        {
+            "song": "Nxde",
+            "singer": "(G)I-DLE"
+        },
+        {
+            "song": "Rollin'",
+            "singer": "Brave Girls"
+        },
+        {
+            "song": "We Ride",
+            "singer": "Brave Girls"
+        },
+        {
+            "song": "Love Poem",
+            "singer": "IU"
+        },
+        {
+            "song": "Celebrity",
+            "singer": "IU"
+        },
+        {
+            "song": "UN Village",
+            "singer": "BAEKHYUN"
+        },
+        {
+            "song": "Any Song",
+            "singer": "ZICO"
+        },
+        {
+            "song": "Flower",
+            "singer": "JISOO"
+        },
+        {
+            "song": "LILAC",
+            "singer": "IU"
+        },
+        {
+            "song": "Panorama",
+            "singer": "IZ*ONE"
+        },
+        {
+            "song": "Fiesta",
+            "singer": "IZ*ONE"
+        },
+        {
+            "song": "La Vie en Rose",
+            "singer": "IZ*ONE"
+        },
+        {
+            "song": "Feel Special",
+            "singer": "TWICE"
+        },
+        {
+            "song": "Fancy",
+            "singer": "TWICE"
+        },
+        {
+            "song": "Likey",
+            "singer": "TWICE"
+        },
+        {
+            "song": "Knock Knock",
+            "singer": "TWICE"
+        },
+        {
+            "song": "As If It's Your Last",
+            "singer": "BLACKPINK"
+        },
+        {
+            "song": "Playing With Fire",
+            "singer": "BLACKPINK"
+        },
+        {
+            "song": "Kill This Love",
+            "singer": "BLACKPINK"
+        },
+        {
+            "song": "How You Like That",
+            "singer": "BLACKPINK"
+        },
+        {
+            "song": "Pink Venom",
+            "singer": "BLACKPINK"
+        },
+        {
+            "song": "Shut Down",
+            "singer": "BLACKPINK"
+        },
+        {
+            "song": "Butter",
+            "singer": "BTS"
+        },
+        {
+            "song": "Permission to Dance",
+            "singer": "BTS"
+        },
+        {
+            "song": "Yet To Come",
+            "singer": "BTS"
+        },
+        {
+            "song": "Set Me Free Pt.2",
+            "singer": "Jimin"
+        },
+        {
+            "song": "Seven",
+            "singer": "Jungkook ft. Latto"
+        },
+        {
+            "song": "Euphoria",
+            "singer": "BTS (Jungkook)"
+        },
+        {
+            "song": "LALISA",
+            "singer": "LISA"
+        },
+        {
+            "song": "Money",
+            "singer": "LISA"
+        },
+        {
+            "song": "Cupid",
+            "singer": "FIFTY FIFTY"
+        },
+        {
+            "song": "Que Sera Sera",
+            "singer": "Roy Kim"
+        },
+        {
+            "song": "Beautiful",
+            "singer": "Crush"
+        },
+        {
+            "song": "Stay With Me",
+            "singer": "CHANYEOL & Punch"
+        },
+        {
+            "song": "Love, Maybe",
+            "singer": "MeloMance"
+        },
+        {
+            "song": "My Star",
+            "singer": "Lee Hi"
+        }
+    ]
+}
