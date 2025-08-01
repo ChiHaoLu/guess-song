@@ -11,6 +11,23 @@ function getYouTubeSearchUrl(query, apiKey) {
   )}&key=${apiKey}`;
 }
 
+async function getVideoUrl(videoId) {
+  const res = await youtube.videos.list({
+    part: "snippet,contentDetails",
+    id: videoId,
+  });
+
+  const video = res.data.items[0];
+
+  return video.snippet.resourceId.url;
+}
+
+function getYoutubeVideoId(url) {
+  const regex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&]+)/;
+  const match = url.match(regex);
+  return match ? match[1] : null;
+}
+
 function App() {
   const [selectedSet, setSelectedSet] = useState("");
   const [questions, setQuestions] = useState([]);
@@ -86,11 +103,15 @@ function App() {
     try {
       const res = await fetch(getYouTubeSearchUrl(searchQuery, apiKey));
       const data = await res.json();
-      if (data.items && data.items.length > 0) {
-        setVideoId(data.items[0].id.videoId);
+      if (q.url) {
+        setVideoId(`${q.url}`);
       } else {
-        setVideoId(null);
-        setFeedback("No YouTube video found for this song. Please try again.");
+        if (data.items && data.items.length > 0) {
+          setVideoId(data.items[0].id.videoId);
+        } else {
+          setVideoId(null);
+          setFeedback("No YouTube video found for this song. Please try again.");
+        }
       }
     } catch (err) {
       setVideoId(null);
